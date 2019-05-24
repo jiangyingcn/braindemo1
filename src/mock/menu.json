@@ -1,0 +1,35 @@
+{
+  "menu": [
+    {
+      "submenu": "智脑后台管理系统",
+      "icon": "message",
+      "menuGroup": [
+        {
+          "icon": "tickets",
+          "label": "题库",
+          "to": "/admin/questions"
+        },
+        {
+          "icon": "document",
+          "label": "答题记录",
+          "to": "/admin/answerRecord"
+        },
+        {
+          "icon": "user",
+          "label": "用户列表",
+          "to": "/admin/userList"
+        },
+        {
+          "icon": "s-custom",
+          "label": "战队列表",
+          "to": "/admin/teamList"
+        },
+        {
+          "icon": "s-tools",
+          "label": "设置",
+          "to": "/admin/setting"
+        }
+      ]
+    }
+  ]
+}
